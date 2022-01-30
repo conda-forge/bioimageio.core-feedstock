@@ -29,7 +29,9 @@ requirements:
     - ruamel.yaml
     - tqdm
     - typer
-    - xarray
+    # latest xarray conda package is broken, see https://github.com/conda-forge/bioimageio.core-feedstock/pull/15#issuecomment-1025107145
+    # remove this pin once this issue is resolved
+    - xarray <0.21
 
 test:
   imports:
