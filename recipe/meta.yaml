@@ -1,5 +1,5 @@
 {% set name = "bioimageio.core" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.4post1" %}
 
 
 package:
@@ -28,10 +28,9 @@ requirements:
     - python >=3.7
     - ruamel.yaml
     - tqdm
+    - tifffile
     - typer
-    # latest xarray conda package is broken, see https://github.com/conda-forge/bioimageio.core-feedstock/pull/15#issuecomment-1025107145
-    # remove this pin once this issue is resolved
-    - xarray <0.21
+    - xarray
 
 test:
   imports:
