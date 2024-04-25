@@ -25,6 +25,7 @@ requirements:
     - bioimageio.spec ==0.5.2.*
     - fire
     - imageio >=2.5
+    - loguru
     - numpy
     - pydantic-settings
     - pydantic
