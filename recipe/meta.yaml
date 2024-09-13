@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
   run:
     - bioimageio.spec ==0.5.3.*
     - imageio >=2.5
