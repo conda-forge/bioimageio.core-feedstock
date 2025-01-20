@@ -25,10 +25,11 @@ requirements:
   run:
     - bioimageio.spec ==0.5.3.5
     - h5py
+    - imagecodecs
     - imageio >=2.10
     - loguru
     - numpy
-    - pydantic-settings >=2.5
+    - pydantic-settings >=2.5,<3
     - pydantic >=2.7.0,<3
     - python >={{ python_min }}
     - requests
