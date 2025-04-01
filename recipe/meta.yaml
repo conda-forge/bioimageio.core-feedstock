@@ -30,7 +30,7 @@ requirements:
     - loguru
     - numpy
     - pydantic-settings >=2.5,<3
-    - pydantic >=2.7.0,<3
+    - pydantic >=2.7.0,<2.10
     - python >={{ python_min }}
     - requests
     - ruyaml
