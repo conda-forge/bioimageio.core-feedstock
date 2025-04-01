@@ -1,5 +1,5 @@
 {% set name = "bioimageio.core" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bioimageio.core-{{ version }}.tar.gz
-  sha256: ed7c7fb70987be6aaa6ad1c5febefb54d179129c560873ae93e7abdc69aa09a2
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bioimageio_core-{{ version }}.tar.gz
+  sha256: 3c6d75a560d1f25535ad9823615ba07194b3df7c74e4698c8b28805fe790114c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - bioimageio = bioimageio.core.__main__:main
@@ -23,20 +23,20 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - bioimageio.spec ==0.5.3.5
+    - bioimageio.spec ==0.5.4.1
     - h5py
     - imagecodecs
     - imageio >=2.10
     - loguru
     - numpy
     - pydantic-settings >=2.5,<3
-    - pydantic >=2.7.0,<3
+    - pydantic >=2.7.0,<2.10
     - python >={{ python_min }}
     - requests
     - ruyaml
     - tqdm
     - typing-extensions
-    - xarray
+    - xarray >=2023.01,<2025.3.0
 
 test:
   imports:
