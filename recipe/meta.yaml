@@ -23,7 +23,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - bioimageio.spec ==0.5.4.3
+    - bioimageio.spec ==0.5.5.4
     - h5py
     - imagecodecs
     - imageio >=2.10
@@ -33,6 +33,7 @@ requirements:
     - pydantic >=2.7.0,<3
     - python >={{ python_min }}
     - ruyaml
+    - scipy
     - tqdm
     - typing-extensions
     - xarray >=2023.01,<2025.3.0
