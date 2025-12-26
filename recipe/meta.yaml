@@ -11,7 +11,7 @@ source:
   sha256: d4c2ac6341c0e3a904cddf2cc07ae34d3b713f6ad2307405200750cf1ee53341
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - bioimageio = bioimageio.core.__main__:main
@@ -36,7 +36,7 @@ requirements:
     - scipy
     - tqdm
     - typing-extensions
-    - xarray >=2023.01,<2025.3.0
+    - xarray >=2023.01
 
 test:
   imports:
