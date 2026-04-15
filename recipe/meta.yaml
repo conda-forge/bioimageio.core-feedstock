@@ -1,5 +1,5 @@
 {% set name = "bioimageio.core" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bioimageio_core-{{ version }}.tar.gz
-  sha256: 28b743440e5918add1ce315e7f376fe4d18e72c47e825a4d9aa9070824693448
+  sha256: a5b4542a161f9386097cc1b2f4bf7024b0ae381df3f97043bf6bbce4ec177512
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - bioimageio.spec ==0.5.9.0
+    - bioimageio.spec ==0.5.9.1
     - imagecodecs
     - imageio >=2.10
     - loguru
