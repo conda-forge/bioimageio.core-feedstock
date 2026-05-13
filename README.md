@@ -3,13 +3,13 @@ About bioimageio.core-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bioimageio.core-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/bioimage-io/python-bioimage-io
+Home: https://github.com/bioimage-io/core-bioimage-io-python
 
 Package license: MIT
 
 Summary: Python functionality for the bioimage model zoo
 
-Development: https://github.com/bioimage-io/python-bioimage-io
+Development: https://github.com/bioimage-io/core-bioimage-io-python
 
 Current build status
 ====================
