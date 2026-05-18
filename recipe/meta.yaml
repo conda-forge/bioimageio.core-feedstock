@@ -23,7 +23,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - bioimageio.spec ==0.5.10.1
+    - bioimageio.spec ==0.5.10.2
     - imagecodecs
     - imageio >=2.10
     - loguru
